@@ -25,6 +25,8 @@ Git上传本地仓库 到 github远程仓库
 
 > 解决： git pull origin master --allow-unrelated-histories //允许合并两个不相关的库（远程和本地两个库完全是两个东西）
 
+> 第5步成功后：会进入一个vim的操作
+
 6. git push -u origin master //把本地仓库的文件推送到远程仓库
 
 ---
