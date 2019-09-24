@@ -30,8 +30,8 @@ Git上传本地仓库 到 github远程仓库
 ---
 
 
-(引用：第一次使用Git上传本地项目到github上)[https://www.cnblogs.com/sdcs/p/8270029.html]
+[引用：第一次使用Git上传本地项目到github上](https://www.cnblogs.com/sdcs/p/8270029.html)
 
-(引用：vim操作)[http://c.biancheng.net/view/804.html]
+[引用：vim操作](http://c.biancheng.net/view/804.html)
 
-(引用：vim操作2)[https://www.cnblogs.com/chengjiawei/p/9339951.html]
+[引用：vim操作2](https://www.cnblogs.com/chengjiawei/p/9339951.html)
