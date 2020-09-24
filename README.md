@@ -37,3 +37,43 @@ Git上传本地仓库 到 github远程仓库
 [引用：vim操作](http://c.biancheng.net/view/804.html)
 
 [引用：vim操作2](https://www.cnblogs.com/chengjiawei/p/9339951.html)
+
+---
+
+## 大文件上传（上传记录）
+HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
+$ git lfs install
+Updated git hooks.
+Git LFS initialized.
+
+HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
+$ git lfs track "*.exe"
+Tracking "*.exe"
+
+HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
+$ git add .gitattributes
+
+HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
+$ git add software
+
+HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
+$ git commit -m "add software"
+[master 0930432] add software
+ 3 files changed, 4 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 software/DPLOL-MF.exe
+ create mode 100644 software/logo.png
+
+HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
+$ git push -u origin master
+Uploading LFS objects: 100% (1/1), 253 MB | 0 B/s, done
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 149.78 KiB | 37.44 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/*****.git
+   e99fc26..0930432  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
