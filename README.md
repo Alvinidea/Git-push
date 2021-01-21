@@ -158,4 +158,8 @@ Branch 'master' set up to track remote branch 'master' from 'origin'. // 完成P
 
 至此完成git本地仓库上传大文件到 github远程仓库
 
+## git
 
+[git工作区、版本库](https://www.runoob.com/git/git-workspace-index-repo.html)
+[git基础操作](https://www.runoob.com/git/git-basic-operations.html)
+[git分支](https://blog.csdn.net/susu_xi/article/details/82025379)
