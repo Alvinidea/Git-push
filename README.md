@@ -38,16 +38,20 @@ Git上传本地仓库 到 github远程仓库
 
 [引用：vim操作2](https://www.cnblogs.com/chengjiawei/p/9339951.html)
 
+[LFS例子](https://github.com/Alvinidea/LFS-test)
+
 ---
 
 ## 大文件上传（上传记录）
 HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
 $ git lfs install
+
 Updated git hooks.
 Git LFS initialized.
 
 HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
 $ git lfs track "*.exe"
+
 Tracking "*.exe"
 
 HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
@@ -58,6 +62,7 @@ $ git add software
 
 HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
 $ git commit -m "add software"
+
 [master 0930432] add software
  3 files changed, 4 insertions(+)
  create mode 100644 .gitattributes
@@ -66,6 +71,7 @@ $ git commit -m "add software"
 
 HP@DESKTOP-346B593 MINGW64 /e/DPLOL-MF (master)
 $ git push -u origin master
+
 Uploading LFS objects: 100% (1/1), 253 MB | 0 B/s, done
 Enumerating objects: 8, done.
 Counting objects: 100% (8/8), done.
